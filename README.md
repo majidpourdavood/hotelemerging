@@ -11,8 +11,6 @@ mongodb
 ```
 npm install
 
-npm start
-OR
 npm run dev
 
 Then Go To localhost:3000
