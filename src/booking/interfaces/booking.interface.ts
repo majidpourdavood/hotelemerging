@@ -1,0 +1,40 @@
+import { Document } from "mongoose";
+
+export interface IBooking extends Document {
+  booking_id: Number;
+  product_id: Number;
+  status: String;
+  total_price: String;
+  currency: String;
+  payment_status: String;
+  payment_gateway: String;
+  supplier_id: String;
+  date: String;
+  user_id: String;
+  checkin: String;
+  checkout: String;
+  nights: String;
+  adults: String;
+  children: String;
+  infants: String;
+  tax: String;
+  tax_type: String;
+  guest_info: String;
+  product_name: String;
+  product_location: String;
+  product_img: String;
+  product_lat: String;
+  product_long: String;
+  product_stars: String;
+  supplier_name: String;
+  product_phone: String;
+  product_email: String;
+  product_website: String;
+  invoice_url: String;
+  from: String;
+  actual_currency: String;
+  actual_price: String;
+  booking_code: String;
+  user_info: String;
+  product_info: String;
+}
